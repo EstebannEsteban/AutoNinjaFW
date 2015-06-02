@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21005" started-at="2015-06-02T04:22:55Z" finished-at="2015-06-02T04:23:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21005" started-at="2015-06-02T04:22:55Z" finished-at="2015-06-02T04:23:16Z">
+      <class name="com.autoninja.fw.tests.TestPF">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.autoninja.fw.tests.TestPF@1b40d5f0]" name="launchBrowser" is-config="true" duration-ms="6976" started-at="2015-06-01T23:22:55Z" finished-at="2015-06-01T23:23:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.130.16.198:8080/Express43/default.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="CreateNewPolicy()[pri:0, instance:com.autoninja.fw.tests.TestPF@1b40d5f0]" name="CreateNewPolicy" duration-ms="13735" started-at="2015-06-01T23:23:02Z" finished-at="2015-06-01T23:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewPolicy -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.autoninja.fw.tests.TestPF@1b40d5f0]" name="closeBrowser" is-config="true" duration-ms="280" started-at="2015-06-01T23:23:16Z" finished-at="2015-06-01T23:23:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateNewPolicy status=SUCCESS method=TestPF.CreateNewPolicy()[pri:0, instance:com.autoninja.fw.tests.TestPF@1b40d5f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.autoninja.fw.tests.TestPF -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
